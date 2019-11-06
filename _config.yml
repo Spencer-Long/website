@@ -1,7 +1,7 @@
 # Site settings
 title: "Spencer Long: Future Data Scientist"
 description: A blog about Spencer Long
-baseurl: "/website" # the subpath of your site, e.g. /blog
+baseurl: "website" # the subpath of your site, e.g. /blog
 #url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
