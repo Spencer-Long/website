@@ -3,7 +3,6 @@ layout: "post"
 title: Estimating Probilities
 ---
 
-<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 <title>Estimating_Probabilities</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
@@ -11802,7 +11801,7 @@ div#notebook {
 <hr>
 <hr>
 <hr>
-<h1 id="Estimating-Probilities-With-Python"><strong><em>Estimating Probilities With Python</em></strong><a class="anchor-link" href="#Estimating-Probilities-With-Python">&#182;</a></h1><h5 id="Source-Material-Website:-https://www.dataquest.io">Source Material Website: <a href="https://www.dataquest.io">https://www.dataquest.io</a><a class="anchor-link" href="#Source-Material-Website:-https://www.dataquest.io">&#182;</a></h5><p><img src="images/banner.png" alt="banner"></p>
+<h1 id="Estimating-Probilities-With-Python"><strong><em>Estimating Probilities With Python</em></strong><a class="anchor-link" href="#Estimating-Probilities-With-Python">&#182;</a></h1><h5 id="Source-Material-Website:-https://www.dataquest.io">Source Material Website: <a href="https://www.dataquest.io">https://www.dataquest.io</a><a class="anchor-link" href="#Source-Material-Website:-https://www.dataquest.io">&#182;</a></h5><p><img src="https://www.transum.org/Software/SW/Starter_of_the_day/Images/BannerProbability.png" alt="Banner"></p>
 <p><strong>In this first notebook on probability you will learn:</strong></p>
 <ul>
 <li><strong>How to calculate empirical probabilities.</strong></li>
@@ -12243,7 +12242,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Above, we came to the conclusion that we can use this formula to compute theoretical probabilities:</p>
 <h2 id="$P(E)-=-\frac{Number-\:-of-\:-Successful-\:-Outcomes}{Total\:-Number-\:-of-\:-Possible-\:-Outcomes}$">$P(E) = \frac{Number \: of \: Successful \: Outcomes}{Total\: Number \: of \: Possible \: Outcomes}$<a class="anchor-link" href="#$P(E)-=-\frac{Number-\:-of-\:-Successful-\:-Outcomes}{Total\:-Number-\:-of-\:-Possible-\:-Outcomes}$">&#182;</a></h2><p>However, let's say we have a biased six-sided die which has a 6 on three of its sides, and 1, 3, and 5 on the rest of the sides.</p>
-<p><img src="images/3_6_dice.png" alt="Dice"></p>
+<p><img src="https://s3.amazonaws.com/dq-content/377/pr1m1_biased_die.png" alt="Dice"></p>
 <p>To be able to use the formula above, we need to take into account that 6 shows up on three sides. To do that, we treat each 6 as a different outcome and say that for this biased die the possible outcomes are 1, 3, 5, 6, 6 and 6.</p>
 <p>Since we treat each 6 as a different outcome, the event "getting a 6" has three successful outcomes: 6, 6 and 6. This means that the probability of getting a 6 is:</p>
 <h4 id="$P(6)-=-\frac{Number-\:-of-\:-Successful-\:-Outcomes}{Total\:-Number-\:-of-\:-Possible-\:-Outcomes}-=-\frac{3}{6}-=-0.5-=-50\%$">$P(6) = \frac{Number \: of \: Successful \: Outcomes}{Total\: Number \: of \: Possible \: Outcomes} = \frac{3}{6} = 0.5 = 50\%$<a class="anchor-link" href="#$P(6)-=-\frac{Number-\:-of-\:-Successful-\:-Outcomes}{Total\:-Number-\:-of-\:-Possible-\:-Outcomes}-=-\frac{3}{6}-=-0.5-=-50\%$">&#182;</a></h4><p>The event "getting a 3" has only one successful outcome, and the event "getting a 2" has no successful outcome, which leads to:</p>
