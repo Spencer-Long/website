@@ -11801,7 +11801,7 @@ div#notebook {
 <hr>
 <hr>
 <hr>
-<h1 id="Estimating-Probilities-With-Python"><strong><em>Estimating Probilities With Python</em></strong><a class="anchor-link" href="#Estimating-Probilities-With-Python">&#182;</a></h1><h5 id="Source-Material-Website:-https://www.dataquest.io">Source Material Website: <a href="https://www.dataquest.io">https://www.dataquest.io</a><a class="anchor-link" href="#Source-Material-Website:-https://www.dataquest.io">&#182;</a></h5><p><img src="https://www.transum.org/Software/SW/Starter_of_the_day/Images/BannerProbability.png" alt="Banner"></p>
+<p><img src="https://www.transum.org/Software/SW/Starter_of_the_day/Images/BannerProbability.png" alt="Banner"></p>
 <p><strong>In this first notebook on probability you will learn:</strong></p>
 <ul>
 <li><strong>How to calculate empirical probabilities.</strong></li>
